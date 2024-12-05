@@ -3,8 +3,9 @@
 
 
 
-import 'package:dipon_test_project/presantaion/screens/list_view.dart';
-//import 'package:dipon_test_project/presantaion/screens/search_boxscreen.dart';
+
+
+import 'package:dipon_test_project/presantaion/screens/folder_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -18,8 +19,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ListViewewscreen(),
-        // SearchBoxScreen(),
+      home: FolderPage(),
+
     );
   }
 }
